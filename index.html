@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="mg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Viba Shop Mada – Fivarotana an-tserasera</title>
+
+  <meta name="description" content="Viba Shop Mada-Fivarotana an-tserasera eto Madagascar.hividi kirao, Vakana, akanjo, ary vokatra maro hafa.">
+  <meta name="keywords" content="Viba Shop Mada, fivarotana an-tserasera,kirao, akanjo, vakana malagasy, art malagasy">
+  <meta name="author" content="Viba Shop Mada">
+  <meta name="robots" content="idex, follow">
+  <link rel="canonical" href="htt://mon site.com">
+
+  <meta property="og:title" content="Viba Shop Mada">
+  <meta property="og:description" content="tout ce dont vous avez besoin au quotidien à Madagascar.Produits de qualité, livraison rapide.">
+  <meta property="og:image" content="https://mon site.com/images/logo.png">
+  <meta property="og:url" content="https://mon site.com">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Viba Shop Mada">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Viba Shop Mada">
+  <meta name="twitter:description" content="Tout ce dont vous avez besoin au quotidien à Madagascar">
+  <meta name="twitter:image" content="https://mon site.com/images/logo.png">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-container">
+    <div class="logo">
+  <img src="images/logo.png" alt="Tout Pour Tous Mada" style="height: 40px; width: auto;">
+</div>
+    <ul class="nav-links">
+      <li><a href="#home">Accueil</a></li>
+      <li><a href="#products">Produits</a></li>
+      <li><a href="#about">À propos</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="dark-toggle" id="darkModeToggle">🌓 Mode sombre</button>
+  </div>
+</nav>
+
+<section id="home" class="hero">
+  <div class="container hero-content">
+    <div class="logo-placeholder">
+      <img src="images/logo.png" alt="Tout Pour Tous Mada" class="hero-logo">
+    </div>
+    <h1>Bienvenue chez <span style="color: #FFD966;">vous</span></h1>
+    <div class="slogan">✨ Tout ce dont vous avez besoin au quotidien ✨</div>
+  </div>
+</section>
+
+<div class="container" id="products">
+  <h2 class="section-title"><span>🌟 Nos Produits Vedettes 🌟</span></h2>
+  <div class="filter-bar">
+    <div class="categories-wrapper" id="categoriesContainer"></div>
+    <input type="text" id="searchInput" placeholder="🔍 Mitady produit...">
+  </div>
+  <div class="products-grid" id="productsGrid"></div>
+</div>
+
+<section id="about" class="container" style="margin: 3rem auto;">
+  <div class="about-card">
+    <h2 style="color: var(--primary-red);">À propos de nous</h2>
+    <p>Tout Pour Tous Mada est votre partenaire quotidien à Madagascar. Livraison rapide et service client via WhatsApp.</p>
+    <p><i class="fas fa-map-marker-alt"></i> Antananarivo, Madagascar | 📞 +261 33 26 889 67</p>
+  </div>
+</section>
+
+<section id="contact" class="container">
+  <div class="contact-section">
+    <h2 style="text-align: center;">📩 Contactez-nous</h2>
+    <div class="contact-wrapper">
+      <div class="contact-form">
+        <form id="contactForm">
+          <div class="form-group"><input type="text" placeholder="Nom" id="contactName" required></div>
+          <div class="form-group"><input type="email" placeholder="Email" id="contactEmail" required></div>
+          <div class="form-group"><textarea rows="3" placeholder="Message" id="contactMsg" required></textarea></div>
+          <button type="submit" class="btn-submit">Envoyer <i class="fas fa-paper-plane"></i></button>
+        </form>
+        <a href="https://wa.me/261332688967?text=Bonjour" class="whatsapp-contact" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp direct</a>
+      </div>
+      <div class="contact-info">
+        <h3><i class="fas fa-store"></i> Infos</h3>
+        <p><i class="fas fa-clock"></i> Lun-Sam: 9h-18h</p>
+        <p><i class="fas fa-phone-alt"></i> +261 33 26 889 67</p>
+        <div class="map-placeholder"><i class="fas fa-map-marker-alt fa-2x"></i> Antananarivo centre</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container footer-grid">
+    <div><h3>Tout Pour Tous Mada</h3><div class="social-links"><a href="#"><i class="fab fa-facebook"></i></a><a href="#"><i class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-tiktok"></i></a></div></div>
+    <div><h4>Adresse</h4><p>Antananarivo 101, Madagascar</p><p>9h-18h (sauf dimanche)</p></div>
+    <div><h4>Liens</h4><p><a href="#home" style="color:var(--primary-green)">Accueil</a></p><p><a href="#products" style="color:var(--primary-green)">Produits</a></p><p><a href="https://www.facebook.com/profile.php?id=61573481674236" target="_blank" class="facebook-link"><i class="fab fa-facebook"></i>Suivez-nous sur facebook</a></i></a></p></div>
+  </div>
+  <div class="container" style="text-align:center; margin-top:2rem;">© 2025 Tout Pour Tous Mada – 🇲🇬</div>
+</footer>
+
+<a href="https://wa.me/261332688967?text=Bonjour%20je%20souhaite%20commander" class="float-wa" target="_blank"><i class="fab fa-whatsapp fa-lg"></i> <span>WhatsApp</span></a>
+
+<!-- Modal pour agrandir l'image -->
+<div id="imageModal" class="modal">
+  <span class="modal-close">&times;</span>
+  <img class="modal-content" id="modalImage">
+</div>
+
+</body>
+</html>
